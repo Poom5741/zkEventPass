@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"index.tsx -> @worldcoin/id\":{\"id\":\"index.tsx -> @worldcoin/id\",\"files\":[\"static/chunks/node_modules_worldcoin_id_dist_index_js.js\"]}}"
