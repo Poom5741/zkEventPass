@@ -1,0 +1,44 @@
+# Ignore node_modules in both frontend and backend
+zk-eventpass/node_modules/
+zupass/node_modules/
+
+# Build and cache folders
+zk-eventpass/.next/
+zk-eventpass/out/
+zupass/.turbo/
+zupass/apps/**/.next/
+zupass/packages/**/dist/
+zupass/packages/**/.cache/
+zupass/examples/**/.next/
+zupass/test-packaging/**/.next/
+
+# Logs
+*.log
+yarn-error.log
+npm-debug.log*
+
+# OS/IDE/editor junk
+.DS_Store
+.idea/
+.vscode/
+
+# Env files (if used)
+zk-eventpass/.env*
+zupass/.env*
+
+# TypeScript build artifacts
+zk-eventpass/*.tsbuildinfo
+zupass/*.tsbuildinfo
+zupass/packages/**/.tsbuildinfo
+
+# Coverage and testing
+coverage/
+zupass/coverage/
+
+# Output folders from scripts
+zupass/scripts/output/
+
+# Package manager lock files (if switching tools)
+pnpm-lock.yaml
+package-lock.json
+
